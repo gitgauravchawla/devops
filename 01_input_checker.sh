@@ -6,7 +6,7 @@
 #!/bin/bash
 
 set -e
-if [ $# -lt 3 ]; then
+if [ $# -gt 3 ] && [ $# -lt 3 ]; then
         echo "$1 is having valid # of arguments"
         else echo "$1 is having more than 3 arguments"
         fi
