@@ -16,4 +16,7 @@ if [ $# -lt 3 ]; then
         if [ $2 -gt 1 ] && [ $2 -lt 10 ]; then 
                 echo "success" else
                     echo "failure"
-                    fi
+  fi
+#My mistakes/Learnings##
+# 1. after each "if" there has to be a "fi", Although i was nesting the if's i was not placing an "fi" after each "if".##
+## 2. I was missing a space after "if" and before "[" in line #9. due to which i got error "expecting ..".
